@@ -1,0 +1,121 @@
+
+
+/* Adding background image */
+body {
+
+	background-color: #EEE4FF;
+
+}
+
+
+
+/* Define the grid class for the game */
+.grid {
+
+	height: 560px; /* 8 by 8 square grid. The squares are 70px each. 70 x 8 = 560 */
+	width: 560px; /* Same as above */
+	display: flex; /* This will stack the divs over eachother */
+	flex-wrap: wrap; /* This will allow the divs to break when they cannot fit on the grid */
+	margin-left: 700px;
+	margin-top: 100px;
+	background-color: rgba(221, 216, 249, 0.5);
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(86, 77, 140, 0.5) inset, 0 1px 0 #fff;
+    position: absolute;
+
+
+
+
+}
+
+
+/* Define the properties for the individual squares on the grid */
+.grid div {
+
+	height: 70px; /* Create perfect squares :) */
+	width: 70px;
+
+}
+
+/* Defining attributes for the score board */
+.score-board {
+
+	height: 200px;
+	width: 280px;
+  	background-color: rgba(221, 216, 249, 0.5);
+  	border-radius: 10px;
+	margin-left: 300px;
+	margin-top: 100px;
+  	display: flex;
+  	flex-direction: column;
+  	justify-content: space-between;
+  	align-items: center;
+  	text-align: center;
+  	box-shadow: 0 2px 4px rgba(86, 77, 140, 0.5) inset, 0 1px 0 #fff;
+  	color: #85796b;
+}
+
+
+
+/* Calling my font faces */
+@font-face {
+	font-family: "CreamCake";
+	src: url(CreamCake.ttf);
+	
+}
+
+
+@font-face {
+	font-family: "HelloValentina";
+	src: url(HelloValentina.ttf);
+	
+}
+
+
+@font-face {
+	font-family: "CreamCake";
+	src: url(HelloValentina.ttf);
+	
+}
+
+
+/* Defining regular header text properties */
+h1 {
+
+	font-family: "CreamCake";
+	font-size: 30px;
+	color: #635F7F;
+	margin-top: 40px;
+	margin-left: 300px;
+	
+
+}
+
+
+
+/* Defining the score text properties */
+h3 {
+
+	font-family: "CreamCake";
+	margin-top: -40px;
+	font-size: 60px;
+	color: #9288DA
+	
+
+}
+
+
+/* Defining the title text properties */
+h2 {
+
+	font-family: "HelloValentina";
+	color: #635F7F;
+	font-size: 50px;
+	;
+
+}
+
+
+
+
