@@ -1,0 +1,96 @@
+
+
+body { /* Add the attributes for the main body of the page. */
+
+	float: left;
+	text-align: center;
+
+}
+
+h1 { /* There are no further attributes to define for the header, as header tags are already larger than paragraph tags. */
+	
+}
+
+a { /* Add the attributes for the link-text only. */
+
+	color: white;
+	text-decoration: none; /* This removes the underlines for the links. */
+	font-weight: bold; /* I want to bolden the links in the footer and navigation, so I must put this attribute in the a-tag. */
+
+}
+
+a:hover { /* Add some attributes that will occur when the mouse is hovered over the links in the a-tag. */
+
+	color: yellow; /* This will make the text yellow when it is hovered over. */
+
+}
+
+.header { /* Add the attributes for the header. The header has a purple background and bold, large white text. */
+
+	padding-top: 15px;
+	padding-right: 10px;
+	text-align: center;
+	background-color: #5f3794;
+	color: white;
+	position:fixed;
+	top:0;
+	width:100%;
+	height: 120px;
+	margin-left:-10px;
+	font-family: helvetica;
+	font-weight: bold;
+	font-size: 21px;
+
+}
+
+.navigation { /* Add the attributes for the navigation bar on the far left side of the screen. The content for the navigation bar are bolded,
+and spaced out. This can be done with the font-weight command, and with padding. */
+
+	padding-top: 30px;
+	text-align: left;
+	padding-left: 20px;
+	width: 16%;
+	height: 100%;
+	font-size: 25px;
+	color: white;
+	background-color: #c0c0c0;
+	position:fixed;
+	left:0;
+	float: left;
+	margin-top: 126px;
+	margin-bottom: 10px;
+	font-family: helvetica;
+	font-weight: bold;
+
+}
+
+.content { /* Add the attributes to the main content on the page. There are two main "headers", followed my content underneath. 
+The headers are larger and bolded, and the content is not bolded and is a smaller font size. In addition, the content underneath "Course Outcome"
+is organized using bullets. These bullets were created in the html file with <li></li>. */
+
+text-align: left;
+margin-left:390px;
+margin-top:170px;
+font-family: helvetica;
+font-size: 21px
+}
+
+
+.footer { /* Add the attributes for the footer. The footer has a purple background and smaller text that is centered. Note that there are two links 
+within the footer, and these links are white and bolded. Therefore, the attributes for the links will be added in the a-tag, whereas this will
+be for the general footer text and background. */
+
+text-align: center;
+background-color: #5f3794;
+color: black;
+padding:12px;
+position:fixed;
+bottom:0;
+width:100%;
+margin-left: -15px;
+height:50px;   
+background:#5f3794;
+font-family: helvetica;
+font-size: 20px;
+
+}
