@@ -1,0 +1,72 @@
+
+
+/* Setting up the gradient background. */
+
+body {
+
+	background: rgb(232,213,213);
+	background: radial-gradient(circle, 
+	rgba(232,213,213,1) 10%, rgba(246,221,181,1) 62%, rgba(197,169,232,1) 100%);
+
+}
+
+
+h1 { /* Define attributes for the header. */
+
+	font-family: "Apercu";
+	font-size: 30px;
+	color: #635F7F;
+	display: block;
+	width: 100% auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 3%;
+	text-align: center;
+
+}
+
+
+.center { /* Defining the center class which will be used for the images. */
+
+	display: block;
+	padding-top: 150px;
+	margin-top: 3%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	background-color: rgba(151, 116, 175, 0.5);
+	padding: 5px;
+	border-radius: 10px;
+	border: 15px solid #DEBFF3;
+}
+
+
+
+button { /* Define attributes for the reset button. */
+
+	background-color:#bb9be0;
+	border-radius:40px;
+	display:block;
+	margin-top: 3%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 10%;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Apercu;
+	font-size:18px;
+	padding:17px 39px;
+	text-decoration:none;
+}
+
+.button:hover {  /* Add a hover effect to the reset button when it is moused over. */
+	background-color:#eba7db;
+}
+
+
+@font-face { /* Calling the font I want to use. */
+	font-family: "Apercu";
+	src: url(Apercu.otf);
+	
+}
+
