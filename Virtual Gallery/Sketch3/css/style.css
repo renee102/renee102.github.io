@@ -1,0 +1,61 @@
+
+html, body {
+  height: 100%;
+}
+
+body {
+
+  background: rgb(10, 3, 20); /* Create radial gradient background. */
+  background: radial-gradient(circle, rgba(10, 3, 20,1) 87%, rgba(118,37,144,1) 100%);
+
+  margin: 0;
+  display: flex;
+
+  /* Center sketch horizontally. */
+  justify-content: center;
+
+  /* Center sketch vertically. */
+  align-items: center;
+
+}
+
+button { /* Define attributes for the button. */
+
+  background-color:#bb9be0;
+  border-radius:40px;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Apercu;
+  font-size:18px;
+  padding:17px 39px;
+  text-decoration:none;
+}
+
+.button:hover {  /* Add a hover effect to the button when it is moused over. */
+  background-color:#eba7db;
+}
+
+h1 { /* Define attributes for the header1 tag. */
+
+  color:#8e7aff;
+  font-family:Apercu;
+  font-size:25px;
+  text-align: center;
+
+}
+
+
+h2 { /* Define attributes for the header2 tag. */
+
+  color:#ffffff;
+  font-family:Apercu;
+  font-size:20px;
+  text-align: center;
+
+}
+
+@font-face { /* Calling the font I want to use. */
+  font-family: "Apercu";
+  src: url(Apercu.otf);
+  
+}
