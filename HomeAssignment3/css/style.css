@@ -1,0 +1,32 @@
+
+
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+
+  /* Center sketch horizontally. */
+  justify-content: center;
+
+  /* Center sketch vertically. */
+  align-items: center;
+}
+
+h1 {
+
+	color:#ffffff;
+	font-family:Apercu;
+	font-size:23px;
+	text-align: center;
+
+}
+
+@font-face { /* Calling the font I want to use. */
+	font-family: "Apercu";
+	src: url(Apercu.otf);
+	
+}
